@@ -1,0 +1,12 @@
+def init(params: dict):
+    return None
+
+
+def run(data: dict, func=None) -> bool:
+    if data["objectPath"] == "18013081_8796315825272_82706_81356_81356.jpg":
+        return True
+    return False
+
+
+def teardown():
+    pass
