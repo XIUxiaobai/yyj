@@ -4,7 +4,7 @@ def init(params: dict):
 
 
 def run(data: dict, func=None) -> bool:
-    if data["objectPath"] == "10.jpg":
+    if data["objectPath"] == "18013081_8797315938744_82716_81366_81366.jpg":
         return True
     return False
 
