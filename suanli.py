@@ -4,9 +4,10 @@ def init(params: dict):
 
 
 def run(data: dict, func=None) -> bool:
-    if data["objectPath"] == "17_27_2321.jpg":
-        raise Exception 
-
+   try:
+        raise CustomError('异常')
+    except CustomError as e:
+        print(e)
 
 def teardown():
     pass
