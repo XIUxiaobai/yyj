@@ -4,9 +4,8 @@ def init(params: dict):
 
 
 def run(data: dict, func=None) -> bool:
-    if data["objectPath"] == "18013081_8796215827360_82705_81355_81355.jpg":
-        return True
-    return False
+    if data["objectPath"] == "17_27_2321.jpg":
+        raise Exception 
 
 
 def teardown():
